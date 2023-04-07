@@ -8,6 +8,8 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
+
+  //I worked with my tutor Robert Kurle on this assignment
   $(".saveBtn").on("click", function(){
     var divKey = $(this).parent().attr("id")
     var textValue = $(this).siblings(".description").val()
